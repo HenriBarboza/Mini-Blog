@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 import { useAuthentication } from '../hooks/useAuthentication';
 
-import { useAuthValue } from '../context/authContext';
+import { useAuthValue } from '../context/AuthContext';
 
 // CSS
 import styles from "./NavBar.module.css";
