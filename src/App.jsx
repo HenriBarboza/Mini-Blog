@@ -50,7 +50,7 @@ function App() {
             <NavBar />
             <div className="container">
               <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/Mini-Blog' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/search' element={<Search />} />
                 <Route path='/post/:id' element={<Post/>} />

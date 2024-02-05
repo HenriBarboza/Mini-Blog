@@ -22,7 +22,7 @@ const search = () => {
         {posts && posts.length === 0 && (
           <div className={styles.noposts}>
           <p>Não foram encontrados posts a partir da sua busca...</p>
-          <Link to="/" className="btn btn-dark">
+          <Link to="/Mini-Blog" className="btn btn-dark">
             Voltar
           </Link>
           </div>
